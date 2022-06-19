@@ -1,0 +1,24 @@
+.container {
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+    width: 10cm;
+}
+.container .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #0fd439;
+   animation: progress-animation 5s infinite;
+}
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    100% { width: 100%}
+}
+.float-1{
+    float: right;
+    padding-right: 16cm;
+}
+.float-2{
+    float: right;
+    padding-right: 15cm;
+}

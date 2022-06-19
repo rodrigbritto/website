@@ -1,0 +1,63 @@
+body{
+    background-size: 100%;
+}
+nav{
+    position: fixed;
+}
+ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 20px;
+  }
+  
+  ul li a:hover{
+    background-color: rgba(255,255,255,.3);
+  }
+  nav{
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 200px;
+  }
+  ul#ul-principal{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    margin: auto;
+  }
+  
+  .li-p{
+    line-height: 50px;
+    float: left;
+    
+  }
+  ul li ul li{
+    background-color: black;
+  }
+  
+  .ul-python, .ul-php, .ul-html, .ul-css, .ul-css-1{
+    display: none;
+  }
+  ul li:hover ul {
+    display: block;
+  }
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  article {
+    float: right;
+    padding: 105px;
+    width: 70%;
+    background-color: #fffdfd;
+    height: 2350px; 
+  }
+.img-1{
+    padding-left: 3cm;
+}
+img{
+    padding-left: 1cm;
+}

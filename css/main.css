@@ -1,0 +1,76 @@
+body{
+    background-size: 100%;
+}
+.redes-socias ul li {
+display: inline-block;
+    padding: 1px;
+    text-align: left;
+    font-size: 2px;
+    color: black;
+
+}
+.redes-socias{
+text-align: right;
+padding-top: 450px;
+float: left;
+}
+body {
+    color:#000000;
+    margin:0px;
+    font-size:100%;
+}
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    float:left; 
+    width:100%;
+    background-color: #127579;
+    list-style: none;
+    font:76% tahoma;
+    
+}
+#menu ul li {
+        display:inline;
+}
+#menu ul li a{
+background-color: EDEDED;
+color: #333;
+text-decoration: none;
+Border-bottom: 3px solid #EDEDED;
+padding: 0PX 95PX;
+float: center;
+}
+#menu ul li a:hover{
+background-color: #D6D6D6;
+color: #6D6D6D;
+border-bottom: 9px solid #000000;
+}
+.t-1{
+position: relative;
+top: 10px;
+padding-right: 1cm;
+color:white;
+}
+.h1-1{
+color: #080808;
+padding-left: 35%;
+padding-top: 3%;
+}
+.h1-2{
+    padding-left: 2%;
+}
+.p-1{
+    padding-left: 3%;
+}
+.txt-1{
+padding-left: 50%;
+font:Arial;
+background: #f3f3f3;
+}
+.txt-2{
+    font-size: large;
+}
+
+
+
+
